@@ -29,8 +29,7 @@ public:
     void displayAll() {
         Node* temp = head;
         cout << endl;
-        while(temp != nullptr)
-        {
+        while(temp != nullptr) {
             cout << temp->data << endl;
             temp = temp->next;
         }
